@@ -38,3 +38,9 @@
 | GetWidth() const                                             | number                |
 | IsAutoDelete()                                               | boolean               |
 
+<br/>
+
+См. также:
+
+- CGameFont
+- Frect
