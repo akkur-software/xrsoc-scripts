@@ -10,33 +10,32 @@
 
 ##### Методы:
 
-| Сигнатура                                                    | Возвращаемое значение |
-| ------------------------------------------------------------ | --------------------- |
-| CUIWindow()                                                  | CUIWindow             |
-| GetFont()                                                    | CGameFont*            |
-| SetWindowName(string *windowName*)                           | Нет                   |
-| Enable(boolean)                                              | Нет                   |
-| SetHeight(number *height*)                                   | Нет                   |
-| SetAutoDelete(boolean *isAutoDelete*)                        | Нет                   |
-| AttachChild(CUIWindow* *pChild*)                             | Нет                   |
-| SetWndPos(number *x*, number *y*)                            | Нет                   |
-| ResetPPMode()                                                | Нет                   |
-| WindowName()                                                 | string                |
-| DetachChild(CUIWindow* *pChild*)                             | Нет                   |
-| SetPPMode()                                                  | Нет                   |
-| SetFont(CGameFont* *pFont*)                                  | Нет                   |
-| IsShown()                                                    | boolean               |
-| Init(number *x*, number *y*, number *width*, number *height*) | Нет                   |
-| Init(Frect* *pWindowRect*)                                   | Нет                   |
-| SetWndRect(Frect *windowRect*)                               | Нет                   |
-| SetWndRect(number *x*, number *y*, number *width*, number *height*) | Нет                   |
-| GetHeight() const                                            | number                |
-| SetWidth(number *width*)                                     | Нет                   |
-| Show(boolean *isShown*)                                      | Нет                   |
-| IsEnabled()                                                  | boolean               |
-| SetWndSize(number *width*, number *height*)                  | Нет                   |
-| GetWidth() const                                             | number                |
-| IsAutoDelete()                                               | boolean               |
+| Сигнатура                                                    | Возвращаемое значение | Описание                                     |
+| ------------------------------------------------------------ | --------------------- | -------------------------------------------- |
+| WindowName()                                                 | string                | Имя окна                                     |
+| GetFont()                                                    | CGameFont*            | Текущий шрифт                                |
+| GetWidth() const                                             | number                | Ширина окна                                  |
+| GetHeight() const                                            | number                | Высота окна                                  |
+| IsAutoDelete()                                               | boolean               | Является ли окно автоматически удаляемым     |
+| IsShown()                                                    | boolean               | Отображается ли окно                         |
+| IsEnabled()                                                  | boolean               | Включено ли окно                             |
+| SetWindowName(string *windowName*)                           | Нет                   | Установка имени                              |
+| SetWidth(number *width*)                                     | Нет                   | Установка ширины                             |
+| SetHeight(number *height*)                                   | Нет                   | Установка высоты                             |
+| SetWndPos(number *x*, number *y*)                            | Нет                   | Установка позиции                            |
+| SetWndSize(number *width*, number *height*)                  | Нет                   | Установка размера                            |
+| SetAutoDelete(boolean *isAutoDelete*)                        | Нет                   | Установка окна, как автоматически удаляемого |
+| SetPPMode()                                                  | Нет                   | Установка режима PP (?)                      |
+| ResetPPMode()                                                | Нет                   | Сброс режима PP (?)                          |
+| SetWndRect(number *x*, number *y*, number *width*, number *height*) | Нет                   | Установка оконной области                    |
+| SetWndRect(Frect *windowRect*)                               | Нет                   | Установка оконной области                    |
+| SetFont(CGameFont* *pFont*)                                  | Нет                   | Установка шрифта                             |
+| Enable(boolean)                                              | Нет                   | Включение окна                               |
+| Show(boolean *isShown*)                                      | Нет                   | Установка видимости                          |
+| Init(number *x*, number *y*, number *width*, number *height*) | Нет                   | Инициализация окна                           |
+| Init(Frect* *pWindowRect*)                                   | Нет                   | Инициализация окна                           |
+| AttachChild(CUIWindow* *pChild*)                             | Нет                   | Прикрепить дочернее окно                     |
+| DetachChild(CUIWindow* *pChild*)                             | Нет                   | Открепить дочернее окно                      |
 
 <br/>
 
