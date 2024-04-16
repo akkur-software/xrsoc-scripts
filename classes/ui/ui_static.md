@@ -1,14 +1,20 @@
 #### Класс CUIStatic
 
-Класс, представляющий абстракцию статического элемента управления в игре.
+Базовый класс, представляющий статический элемента управления.
+
+<br/>
 
 ##### Наследуется от:
 
 CUIWindow
 
+<br/>
+
 ##### Свойства
 
 Данный класс не имеет свойств 
+
+<br/>
 
 ##### Методы:
 
@@ -20,7 +26,7 @@ CUIWindow
 | GetText()                                                    | string                | Текст                                          |
 | GetColor() const                                             | number                | Цвет элемента управления                       |
 | GetHeading()                                                 | number                | Размер заголовка                               |
-| GetClipperState()                                            | boolean               | Обрезается ли элемент управления               |
+| GetClipperState()                                            | boolean               | Обрезается ли элемент                          |
 | GetTextAlign()                                               | number                | Выравнивание текста в элементе управления      |
 | GetStretchTexture()                                          | boolean               | Растянута ли текстура по элементу управления   |
 | SetTextX(number *posX*)                                      | Нет                   | Установка позиции текста по оси X              |
@@ -39,7 +45,7 @@ CUIWindow
 | SetTextureOffset(number *x*, number *y*)                     | Нет                   | Установка смещения текстуры                    |
 | InitTexture(string *textureName*)                            | Нет                   | Инициализация текстуры                         |
 
-
+<br/>
 
 ##### Методы, унаследованные от CUIWindow:
 
